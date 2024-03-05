@@ -1,10 +1,49 @@
-abbr{
-    font-style: italic;
-    color: green;
+*, 
+*::before,
+*::after {
+    box-sizing: border-box;
+    background-color: yellowgreen;
 }
-img {
+
+body {
+    margin: 0px 20px;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+abbr {
+    font-style: italic;
+    color: blueviolet;
+}
+
+img.testing {
     display: block;
     margin: 0 auto;
     width: 100px;
     height: 100px;
-  }
+}
+
+address a:hover {
+    text-decoration: none;
+    background-color: azure;
+}
+
+hr {
+    border: red solid 1px;
+}
+
+.whatsapp_button {
+    width: 150px;
+}
