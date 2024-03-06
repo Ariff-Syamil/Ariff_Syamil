@@ -13,21 +13,42 @@
 --bittersweet: #ee6352ff;
  */
 
-ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
+@media screen {
+  
+}
+
+html {
+  font-size: 7vw;
+  width: 100vw;
+  height: 100vh;
+}
+
+.header {
   display: flex;
-  flex-direction: row;
   justify-content: flex-end;
-  gap: 2rem;
+  font-size: 25%;
+  list-style-type: none;
 }
 
-.header a {
-  color: #000;
-  font-size: 25px;
+.header-content {
+  list-style-type: none;
+  text-decoration: none;
+  display: flex;
+  width: auto;
 }
 
+.header-content a{
+  text-decoration: none;
+  border: 1px solid black;
+  color: black;
+  padding: 1vw;
+  background-color: #edf5e1;
+}
+
+.header-content a:hover {
+  background-color: rgb(17, 174, 25);
+  font-weight: bold;
+}
 .page {
   width: 100%;
   height: 100vh;
@@ -35,12 +56,16 @@ ul {
 }
 
 .number0 {
-  font-size: 100px;
+  height: 100vh;
+  font-size: 90%;
   display: flex;
   flex-direction: column;
-  justify-content:center;
-  align-items: center;
+  justify-content: center;
   background-color: #5CDB62ff;
+}
+
+.intro {
+  font-size: 40%;
 }
 
 abbr {
@@ -49,23 +74,34 @@ abbr {
 }
 
 .number1 {
+  font-size: 40%;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  /* align-items: center; */
   gap: 2em;
   background-color: #65def1ff;
 }
 
+.about-me+p{
+  font-size: 70%;
+}
+
 .number2 {
+  font-size: 40%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   background-color: #ee6352ff;
-  gap: 2em;
+  gap: 1em;
+}
+
+.work {
+  font-size: 70%;
 }
 
 .number3 {
+  font-size: 20%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -80,6 +116,7 @@ img.testing {
 }
 
 .number4 {
+  font-size: 20%;
   display: flex;
   justify-content: flex-end;
   align-items: center;
