@@ -12,6 +12,11 @@
 --prussian-blue: #003249ff;
 --bittersweet: #ee6352ff;
  */
+html {
+  font-size: 7vw;
+  width: 100vw;
+  height: 100vh;
+}
 
 @media screen {
   
