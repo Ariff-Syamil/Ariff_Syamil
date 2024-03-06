@@ -1,50 +1,97 @@
-*, 
+*,
 *::before,
 *::after {
-    box-sizing: border-box;
-    background-color: yellowgreen;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-body {
-    margin: 0px 20px;
-    height: 1200px;
+/* CSS HEX
+--malachite: #5CDB62ff;
+--electric-blue: #65def1ff;
+--prussian-blue: #003249ff;
+--bittersweet: #ee6352ff;
+ */
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  gap: 2rem;
 }
 
-ul{
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: row;
-    gap: 2rem;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    padding-inline-start: 40px;
+.header a {
+  color: #000;
+  font-size: 25px;
+}
+
+.page {
+  width: 100%;
+  height: 100vh;
+  padding: 100px;
+}
+
+.number0 {
+  font-size: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+  background-color: #5CDB62ff;
 }
 
 abbr {
-    font-style: italic;
-    color: blueviolet;
+  font-style: italic;
+  color: blueviolet;
+}
+
+.number1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+  background-color: #65def1ff;
+}
+
+.number2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #ee6352ff;
+  gap: 2em;
+}
+
+.number3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(214, 214, 50);
 }
 
 img.testing {
-    display: block;
-    margin: 0 auto;
-    width: 100px;
-    height: 100px;
+  display: block;
+  margin: 0 auto;
+  width: 100px;
+  height: 100px;
+}
+
+.number4 {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: #003249ff;
+  gap: 2em;
 }
 
 address a:hover {
-    text-decoration: none;
-    background-color: azure;
-}
-
-hr {
-    border: red solid 1px;
+  text-decoration: none;
+  background-color: #edf5e1;
 }
 
 .whatsapp_button {
-    width: 150px;
+  width: 150px;
 }
